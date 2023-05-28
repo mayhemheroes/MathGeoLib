@@ -1,0 +1,5 @@
+project: mathgeolib
+target: fromstring
+cmds:
+  - cmd: /fuzz_FromString
+    libfuzzer: true
